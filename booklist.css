@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+    display: inline;
+}
+
+.logo{
+    position: absolute;
+    height: 80px;
+    width: 240px;
+    left: 41%;
+    background-color: tomato;
+    top: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,.5);
+}
+.h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: yellow;
+    margin-top: 10px;
+}
+
+.input{
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    background-color: tomato;
+    top: 18%;
+    left: 41%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,.5);
+}
+::-webkit-input-placeholder{
+    color: yellow;
+}
+
+#name{
+    height: 40px;
+    width: 220px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    background-color: tomato;
+    color: yellow;
+    font-size: 20px;
+    outline: none;
+}
+
+#age{
+    height: 40px;
+    width: 220px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    background-color: tomato;
+    color: yellow;
+    font-size: 20px;
+    outline: none;
+}
+
+#year{
+    height: 40px;
+    width: 220px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    background-color: tomato;
+    color: yellow;
+    font-size: 20px;
+    outline: none;
+}
+
+.btn{
+    height: 40px;
+    width: 220px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    background-color: tomato;
+    color: yellow;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.table{
+   position: absolute;
+   width: 240px;
+   height: auto;
+   background-color: tomato;
+   top: 60%;
+   left: 41%;
+   border-radius: 10px;
+   box-shadow: 0px 10px 10px 0px rgba(0,0,0,.5);
+}
+
+.table tr, th {
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 0 5px;
+    width: 80px;
+    border-radius: 10px;
+    color: yellow;
+}
